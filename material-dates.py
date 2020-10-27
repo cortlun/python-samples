@@ -3,7 +3,7 @@ import pandas as pd
 from datetime import datetime, timedelta
 
 
-material_ids = [str(uuid.uuid1()) for i in range(0,5)] # Generate a list of material ids
+material_ids = [str(uuid.uuid4()) for i in range(0,3)] # Generate a list of material ids
 
 
 start_date = datetime.strptime("2020-10-12", "%Y-%m-%d") # Specify start date
