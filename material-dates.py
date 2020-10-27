@@ -16,3 +16,5 @@ output = [{
 } for material_id in material_ids for date in dates_list] # Use nested list comprehension to produce output as a list of dictionaries
 
 output_df = pd.DataFrame(output) # Generate a DataFrame with the output you want
+
+print(output_df)
